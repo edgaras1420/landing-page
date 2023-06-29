@@ -8,5 +8,48 @@ body {
 }
 
 img {
-    width: 400px;
+    width: 100px;
+}
+
+.content {
+    color: #ffff;
+    background: #1f2937;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    flex-wrap: wrap;
+}
+
+.description {
+    max-width: 800px;
+}
+
+.quotes {
+    background: #e5e7eb;
+}
+
+.signup {
+    background-color: #3882f6;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    list-style: none;
+  }
+
+a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.header,
+.footer {
+    display:flex;
+    justify-content: space-between;
+    padding: 16px;
+    color: #ffff;
+    background: #1f2937;
 }
